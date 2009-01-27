@@ -4,9 +4,9 @@
     http://groovy.codehaus.org
 """
 
-from pygments.lexer import ExtendedRegexLexer
+from pygments.lexer import JavaLexer
 
-class GroovyLexer(ExtendedRegexLexer):
+class GroovyLexer(JavaLexer):
     name = 'Groovy'
     aliases = ['groovy']
     filenames = ['*.groovy']
