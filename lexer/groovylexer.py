@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
     Lexer for the Groovy programming language
     http://groovy.codehaus.org
@@ -9,4 +10,4 @@ class GroovyLexer(ExtendedRegexLexer):
     name = 'Groovy'
     aliases = ['groovy']
     filenames = ['*.groovy']
-    mimetypes = []
+    mimetypes = ['text/x-groovy']
